@@ -1,6 +1,6 @@
 """
 vendor_synth.py
-Data module: loads fact_vendor from asset_model_outputs_v6.xlsx,
+Data module: loads fact_vendor from asset_model_outputs.xlsx,
 generates synthetic (deterministic) vendor assignments, and computes metrics.
 """
 
@@ -11,7 +11,7 @@ import pandas as pd
 # ---------------------------------------------------------------------------
 # Paths
 # ---------------------------------------------------------------------------
-V6_PATH = pathlib.Path(__file__).parent / "asset_model_outputs_v6.xlsx"
+V6_PATH = pathlib.Path(__file__).parent / "asset_model_outputs.xlsx"
 
 # ---------------------------------------------------------------------------
 # Category metadata
